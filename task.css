@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .contenr {
+     border: 2px solid rgba(0, 0, 0, 0.439);
+     border-radius: 20px;
+     height: 400px;
+     width: 600px;
+     display: grid;
+     grid-template-columns: 300px 1fr;
+     gap: 20px;
+     padding: 15px 15px;
+     margin: 15px auto;
+   background-color: rgba(238, 238, 238, 0.199);
+
+ }
+ 
+ .contenr .pp {
+max-width: 80%;
+margin: 5px 10px;
+ } 
+
+ .contenr .pp p {
+     margin:10px 20px;
+     opacity: .8;
+     font-size: small;
+     font-weight: bold;
+ }
+ .date {
+     margin-top: 15px;
+ }
+ .date p {
+     font-size: 18px;
+     padding: 0px 0px;
+     font-weight: bold;
+
+ }
+ .about {
+    
+max-width: 80%;
+margin: 5px 10px;
+}
+.about h3 {
+    font-size: 15px;
+
+}
+.add {
+    display: flex;
+}
+ .info .add i , .info .phon i{
+     opacity: .8;
+     margin: 0px 15px 0px 0px;
+ }
+ .add p{
+     font-size: smaller;
+     font-weight: bold;
+     opacity: .8;
+ }
+ 
+ .phon a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 25px 0px 0px;
+    font-size: 17px;
+    font-weight: bold;
+
+ }
+ 
+ .info {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 90%;
+    justify-content: space-around;
+}
+.inpot a {
+text-decoration: none;
+color: rgba(47, 59, 230, 0.946);
+ border: 1px solid rgba(0, 0, 0, 0.631);
+ border-radius: 10px;
+padding: 5px;
+margin-right:10px ;
+}
+.inpot a span:last-child {
+color: black;
+}
+ /* information box */
+ .container2{
+    border: 2px solid rgba(0, 0, 0, 0.439);
+    border-radius: 20px;
+    height: 500px;
+    width: 600px;
+    padding: 70px 20px 20px 20px;
+   margin: 15px auto;
+   background-color: rgba(238, 238, 238, 0.199);
+   display: grid;
+   
+   grid-template-columns: 1fr  1fr;
+   grid-template-rows:repeat(5 , 1fr) ;
+   gap: 25px;
+   position: relative;
+}
+.icon1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+.icon2 {
+    font-size: 15px;
+    opacity: .7;
+    margin-left: 10px;
+}
+.container2 .icon2  i,.container2 .icon1 i {
+    margin: 3px 10px;
+}
+
+ .container2 .icon2 .free {
+     background-color: black;
+     color: white;
+ }
+ .am {
+     position: absolute;
+     content: "";
+     top: 15px;
+     left:6%;
+     border-bottom: 1px solid black;
+ }
